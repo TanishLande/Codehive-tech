@@ -28,7 +28,7 @@ export const onMailerTwo = async (req) => {
     
     // Email to the company
     const companyMailOptions = {
-      to: 'tanishlande10@gmail.com', // Replace with your actual business email
+      to: 'hr@craftcodehivetech.com', // Replace with your actual business email
       subject: 'New Appointment Request',
       text: `
         Name: ${name}
