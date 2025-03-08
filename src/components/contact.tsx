@@ -17,7 +17,7 @@ const Contact = () => {
     message: "",
   })
 
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     const { name, value } = e.target
     setFormData({
       ...formData,
@@ -25,7 +25,7 @@ const Contact = () => {
     })
   }
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault()
 
     try {
@@ -98,8 +98,6 @@ const Contact = () => {
             className="absolute inset-0"
             frameBorder="0"
             title="map"
-            marginHeight="0"
-            marginWidth="0"
             scrolling="no"
             src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Pune+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
             style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
