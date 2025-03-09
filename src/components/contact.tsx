@@ -17,6 +17,15 @@ const Contact = () => {
     message: "",
   })
 
+  // The exact address to display and for the map
+  const fullAddress = "Navnirman housing society, behind Rameshwar temple, Rupeenagar, Talawade, Haveli, Pune 411 062"
+  
+  // Encode the address for the Google Maps URL
+  const encodedAddress = encodeURIComponent(fullAddress)
+  
+  // Google Maps embed URL with the correct address
+  const mapUrl = `https://maps.google.com/maps?width=100%&height=600&hl=en&q=${encodedAddress}&ie=UTF8&t=&z=14&iwloc=B&output=embed`
+
   const handleChange = (e: any) => {
     const { name, value } = e.target
     setFormData({
@@ -100,13 +109,13 @@ const Contact = () => {
             frameBorder="0"
             title="map"
             scrolling="no"
-            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Pune+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+            src={mapUrl}
             style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
           ></iframe>
           <motion.div variants={itemVariants} className="bg-black relative flex flex-wrap py-6 rounded-lg shadow-md">
             <div className="px-6">
               <h2 className="title-font font-semibold text-blue-400 tracking-widest text-xs">ADDRESS</h2>
-              <p className="mt-1">Navnirman, behind Rameshwar Temple, Rupeenagar, Pune- 411 062</p>
+              <p className="mt-1">{fullAddress}</p>
             </div>
           </motion.div>
         </motion.div>
@@ -180,4 +189,3 @@ const Contact = () => {
 }
 
 export default Contact
-
