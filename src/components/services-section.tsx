@@ -23,10 +23,6 @@ export function ServicesSection() {
       title: "WhatsApp Marketing",
       description: "Direct and effective WhatsApp campaigns to reach customers on their preferred messaging platform.",
     },
-    {
-      title: "Email Marketing",
-      description: "Engaging and automated email campaigns to nurture leads and drive conversions effectively."
-    }
   ]
   
   return (
