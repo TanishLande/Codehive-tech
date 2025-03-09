@@ -90,8 +90,8 @@ export function HeroSection() {
           {/* Heading Section */}
           <div className="space-y-6 max-w-4xl">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">
-            Empowering <span className="text-blue-400 drop-shadow-md">Brands</span> <br className="hidden sm:block" />
-            with Web, Animation & Marketing
+            Craft your<span className="text-blue-400 drop-shadow-md"> code</span> <br className="hidden sm:block" />
+            Build your future!
             </h1>
             <p className="max-w-[700px] mx-auto text-blue-100  md:text-xl font-light">
               Strategic design and seamless development that convert visitors into loyal customers, 

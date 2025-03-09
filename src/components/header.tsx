@@ -146,7 +146,7 @@ export function Header() {
                   <span className="font-bold">C</span>
                 </div>
               </div> */}
-              <span className="font-semibold text-lg">CraftCodeHiveTech</span>
+              <span className="font-semibold text-xl md:text-2xl">CraftCodeHiveTech</span>
             </Link>
           </div>
           
