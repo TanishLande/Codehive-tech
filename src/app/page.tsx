@@ -7,6 +7,7 @@ import { HeroSection } from "@/components/hero-section";
 import Footer from "@/components/footerr";
 import { ServicesSection } from "@/components/services-section"; // Points to the carousel version
 import ProcessSection from "@/components/steps";
+import Courses from "@/components/courses";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <ServicesSection />
         <ProcessSection />
         <BenefitsSection />
+        <Courses />
         <FaqSection />
         <Contact />
       </main>

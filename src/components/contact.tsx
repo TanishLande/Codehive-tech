@@ -83,6 +83,7 @@ const Contact = () => {
   return (
     <motion.section
       initial="hidden"
+      id="contact"
       animate="visible"
       variants={containerVariants}
       className="text-gray-300 body-font relative mt-10 md:my-20"

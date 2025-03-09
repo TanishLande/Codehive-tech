@@ -177,6 +177,12 @@ export function Header() {
               >
                 FAQ
               </Link>
+              <Link
+                href="#contact"
+                className="text-sm font-medium transition-colors hover:text-blue-400 hover:underline underline-offset-4"
+              >
+                Contact
+              </Link>
             </div>
           </nav>
           

@@ -51,7 +51,8 @@ export default function Footer() {
               href="mailto:hr@craftcodehivetech.com"
               className="text-sm md:text-base text-gray-300 hover:text-white transition-colors"
             >
-              hr@craftcodehivetech.com
+              hr@craftcodehivetech.com <br />
+              info@craftcodehivetech.com
             </a>
           </div>
         </div>
