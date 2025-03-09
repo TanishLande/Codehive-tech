@@ -47,7 +47,7 @@ export function ServicesSection() {
               >
                 <CardHeader className="pb-2">
                   <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
-                    <CheckCircle className="h-5 w-5" />
+                    <CheckCircle className="h-5 w-5 text-blue-900" />
                   </div>
                   <h3 className="text-xl font-bold text-white">{service.title}</h3>
                 </CardHeader>
