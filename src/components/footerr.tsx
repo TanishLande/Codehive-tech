@@ -61,7 +61,6 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4 md:gap-0 border-t border-zinc-800 pt-4">
           <div className="text-xs md:text-sm text-gray-400">
             <p>© 2025 CraftCodeHiveTech. All rights reserved.</p>
-            <p>Everything by Roopesh Vercha</p>
           </div>
           
           {/* <Link

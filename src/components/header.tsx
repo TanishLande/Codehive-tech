@@ -39,6 +39,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { format } from "date-fns";
+import Image from "next/image";
 
 // Form validation schema - same as in HeroSection
 const formSchema = z.object({
@@ -141,11 +142,16 @@ export function Header() {
           {/* Logo Section */}
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2">
-              {/* <div className="relative h-8 w-8 overflow-hidden rounded-md bg-blue-gradient">
-                <div className="absolute inset-0 flex items-center justify-center text-primary-foreground">
-                  <span className="font-bold">C</span>
-                </div>
-              </div> */}
+            <div className="relative h-8 w-8 overflow-hidden rounded-md bg-blue-gradient">
+              <Image 
+                src="/logo.png"
+                alt="CraftCodeHiveTech Logo"
+                fill
+                sizes="(max-width: 768px) 32px, 32px"
+                priority
+                className="object-contain"
+              />
+            </div>
               <span className="font-semibold text-xl md:text-2xl">CraftCodeHiveTech</span>
             </Link>
           </div>
