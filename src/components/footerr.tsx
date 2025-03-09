@@ -3,7 +3,7 @@
 
 export default function Footer() {
   return (
-    <div className="p-4 md:p-10 m-2 md:m-10 bg-gradient-to-b from-blue-900/40 to-black text-white rounded-xl">
+    <div className="p-4 md:p-10 m-2 md:m-10 bg-gradient-to-b from-blue-900/40 to-blue-900/10 text-white rounded-xl">
       <div className="flex flex-col space-y-6 md:space-y-12">
         {/* Top section with logo and connect */}
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6 md:gap-0">
