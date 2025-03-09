@@ -19,7 +19,6 @@ export const onMailer = async (req) => {
     });
     
     const mailOptions = {
-      // to: 'hr@craftcodehivetech.com',
       to: 'hr@craftcodehivetech.com',
       subject: 'Message on CraftCode Hive tech.',
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
